@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import Container from 'react-bootstrap/esm/Container';
 
 export default function Projects() {
   
@@ -15,10 +16,12 @@ export default function Projects() {
     
     return (
       <>
-        <h1> Projects: </h1>
-        {projects.map((project) => {
-          return <Project key={project.name} project={project}/>
-        })}
+        <h1 style={{font: 'Century Gothic', textAlign: 'center'}}> Projects </h1>
+        <Container style={{display: 'flex'}}>
+          {projects.map((project) => {
+            return <Project key={project.name} project={project}/>
+          })}
+        </Container>
       </>
-  )
+  ) 
 }
