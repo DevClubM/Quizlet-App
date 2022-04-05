@@ -13,7 +13,7 @@ export default function Project(props) {
       <Card className="ms-4 mt-5 mb-5" style={{ width: '18rem' }}>
         <Card.Img variant="top" src={image} />
         <Card.Body>
-          <Card.Title> {project.name} </Card.Title>
+          <Card.Title> <b>{project.name} </b></Card.Title>
           <Card.Text> {project.description} </Card.Text>
           <Button variant="primary" onClick={() => setModalShow(true)}>
             View Details

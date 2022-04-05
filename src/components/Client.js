@@ -9,7 +9,7 @@ export default function Client(props) {
   const [modalShow, setModalShow] = React.useState(false);
 
   return (
-    <Accordion defaultActiveKey="0">
+    <Accordion className="mx-auto" style={{width: '40%'}} defaultActiveKey="0">
         <Accordion.Item eventKey="0">
             <Accordion.Header>
                 {props.client.name}

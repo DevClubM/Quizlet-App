@@ -24,7 +24,7 @@ const CreateClientform = (props) => {
 
 
   return (    
-    <Form style={{backgroundColor: 'white', font: 'Century Gothic', padding: '5rem', marginBottom: '2rem'}}>
+    <Form className="mx-auto mt-4" style={{backgroundColor: 'white', font: 'Century Gothic', padding: '5rem', marginBottom: '2rem', width: '40%'}}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
             <Form.Control onInput={(e) => {setName(e.target.value)}} value={name} type="text" placeholder="Name" />

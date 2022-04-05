@@ -1,8 +1,50 @@
 import React from 'react'
-import image from '../images/home.jpg'
+import Placeholder from 'react-bootstrap/Placeholder'
 
 export default function Home() {
   return (
-    <img src={image}/>
+      <>
+        <Placeholder xs={12} />      
+        <Placeholder xs={12} bg="primary" />
+        <Placeholder xs={12} bg="secondary" />
+        <Placeholder xs={12} bg="success" />
+        <Placeholder xs={12} bg="danger" />
+        <Placeholder xs={12} bg="warning" />
+        <Placeholder xs={12} bg="info" />
+        <Placeholder xs={12} bg="dark" />
+        <Placeholder xs={12} bg="primary" />
+        <Placeholder xs={12} bg="secondary" />
+        <Placeholder xs={12} bg="success" />
+        <Placeholder xs={12} bg="danger" />
+        <Placeholder xs={12} bg="warning" />
+        <Placeholder xs={12} bg="info" />
+        <Placeholder xs={12} bg="dark" />
+        <Placeholder xs={12} bg="primary" />
+        <Placeholder xs={12} bg="secondary" />
+        <Placeholder xs={12} bg="success" />
+        <Placeholder xs={12} bg="danger" />
+        <Placeholder xs={12} bg="warning" />
+        <Placeholder xs={12} bg="info" />
+        <Placeholder xs={12} bg="dark" />
+        <Placeholder xs={12} bg="primary" />
+        <Placeholder xs={12} bg="secondary" />
+        <Placeholder xs={12} bg="success" />
+        <Placeholder xs={12} bg="danger" />
+        <Placeholder xs={12} bg="warning" />
+        <Placeholder xs={12} bg="info" />
+        <Placeholder xs={12} bg="dark" />
+        <Placeholder xs={12} bg="primary" />
+        <Placeholder xs={12} bg="secondary" />
+        <Placeholder xs={12} bg="success" />
+        <Placeholder xs={12} bg="danger" />
+        <Placeholder xs={12} bg="warning" />
+        <Placeholder xs={12} bg="info" />
+        <Placeholder xs={12} bg="dark" />
+        <Placeholder xs={12} bg="primary" />
+        <Placeholder xs={12} bg="secondary" />
+        <Placeholder xs={12} bg="success" />
+        <Placeholder xs={12} bg="danger" />
+        <Placeholder xs={12} bg="warning" />
+      </>
   )
 }

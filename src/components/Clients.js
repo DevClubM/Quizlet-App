@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import Container from 'react-bootstrap/esm/Container';
 import Client from './Client'
 import CreateClientform from './CreateClientform';
-export default function Project(props) {
 
+export default function Project(props) {
 
     const [clients, setClientList] = useState(
         [
@@ -17,8 +16,6 @@ export default function Project(props) {
         setClientList((prevList) => [...prevList, clint]);
         console.log(clint);
     }
-
- 
 
     return (
         <>
