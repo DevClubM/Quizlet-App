@@ -14,7 +14,7 @@ export default function NavbarReact() {
 
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="projects">Projects</Nav.Link>
-
+                <Nav.Link href="clients">Clients</Nav.Link>
               </Nav>
             </Container>
         </Navbar>
