@@ -9,7 +9,7 @@ import Reviewed from './Reviewed';
 function User() {
   return (
     <div>
-    wtf
+    <strong>USER</strong>
         
 </div>
   )
