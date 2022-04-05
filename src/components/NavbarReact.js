@@ -12,6 +12,7 @@ export default function NavbarReact() {
               <Navbar.Brand href="/"> SQ Project </Navbar.Brand>
               <Nav className="me-auto">
                 <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="clients">Clients</Nav.Link>
                 <Nav.Link href="user">User</Nav.Link>
                 <Nav.Link href="unattempted">Unattaempted</Nav.Link>
                 <Nav.Link href="reviewed">Reviewed</Nav.Link>
