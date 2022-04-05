@@ -2,6 +2,10 @@ import NavbarReact from "./components/NavbarReact";
 import Projects from "./components/Projects";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
+import User from "./components/User";
+import Unattempted from "./components/Unattempted";
+import Reviewed from "./components/Reviewed";
+import UnderReview from "./components/UnderReview";
 import ProjectPage from "./components/ProjectPage";
 
 function App() {
@@ -19,6 +23,10 @@ function App() {
       <Routes>
         <Route path="/" element={<NavbarReact />}>
           <Route index element={<Home />} />
+          <Route path="user" element={<User />}/>
+          <Route path="unattempted" element={<Unattempted />}/>
+          <Route path="reviewed" element={<Reviewed />}/>
+          <Route path="under-review" element={<UnderReview />}/>
           <Route path="projects" element={<Projects projects={projects}/>} />
           <Route path="projects/:id" element={<ProjectPage projects={projects}/>}/>
         </Route>
