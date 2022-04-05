@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import User from "./components/User";
 import Unattempted from "./components/Unattempted";
+import Reviewed from "./components/Reviewed";
+import UnderReview from "./components/UnderReview";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <Route path="projects" element={<Projects />}/>
           <Route path="user" element={<User />}/>
           <Route path="unattempted" element={<Unattempted />}/>
+          <Route path="reviewed" element={<Reviewed />}/>
+          <Route path="under-review" element={<UnderReview />}/>
         </Route>
       </Routes>
     </BrowserRouter>

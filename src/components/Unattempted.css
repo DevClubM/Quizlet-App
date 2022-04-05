@@ -11,7 +11,7 @@
   min-width: 50px;
   background-color: white;
   
-  background: #f0c14b;
+  background: #1f6c9f;
   border: 1px solid;
   margin-top: 10px;
   
@@ -33,7 +33,7 @@
   align-items: center;
   justify-content: flex-start;
   margin-top: 10px;
-  margin-left: 41%;
+  margin-left: 41.75%;
   padding: 20px;
   overflow: hidden;
   border: 1px solid #18181a;
@@ -44,7 +44,7 @@
   padding: 18px 18px 17px;
   text-decoration: none;
   cursor: pointer;
-  background: #f0c14b;
+  background: #257592;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;

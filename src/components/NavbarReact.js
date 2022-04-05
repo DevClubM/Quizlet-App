@@ -14,6 +14,10 @@ export default function NavbarReact() {
 
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="projects">Projects</Nav.Link>
+                <Nav.Link href="user">User</Nav.Link>
+                <Nav.Link href="unattempted">Unattaempted</Nav.Link>
+                <Nav.Link href="reviewed">Reviewed</Nav.Link>
+                <Nav.Link href="under-review">Under Review</Nav.Link>
 
               </Nav>
             </Container>
