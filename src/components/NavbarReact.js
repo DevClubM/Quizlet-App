@@ -11,10 +11,8 @@ export default function NavbarReact() {
             <Container>              
               <Navbar.Brand href="/"> SQ Project </Navbar.Brand>
               <Nav className="me-auto">
-
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="projects">Projects</Nav.Link>
-
+                <Nav.Link href="/projects">Projects</Nav.Link>
               </Nav>
             </Container>
         </Navbar>
