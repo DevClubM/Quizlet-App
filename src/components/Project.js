@@ -10,7 +10,7 @@ export default function Project(props) {
   const { project } = props
 
   return (
-      <Card className="ms-4 mt-5" style={{ width: '18rem' }}>
+      <Card className="ms-4 mt-5 mb-5" style={{ width: '18rem' }}>
         <Card.Img variant="top" src={image} />
         <Card.Body>
           <Card.Title> {project.name} </Card.Title>
